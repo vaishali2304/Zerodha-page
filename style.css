@@ -1,0 +1,366 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.container{
+    width:1300px;
+    margin:auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+header{
+    padding:18px 0px;
+    border-bottom: 0.4px solid rgb(255, 237, 237);
+ 
+    
+}
+.header_logo{
+    width:130px;
+    height:auto;
+    margin-left: 150px;
+    margin-bottom: 5px;
+    
+}
+.header_nav{
+    width:800px;
+    margin-left:350px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    
+}
+.header_nav a{
+text-decoration: none;
+margin-left:70px;
+font-size:17px;
+
+}
+.header_nav a:hover{
+    color:rgb(90, 90, 248);
+}
+.work {
+    margin-top: 80px;
+
+}
+.what_img{
+    width:33%;
+    margin:0px auto;
+
+}
+.what_img img{
+    width: 100%;
+
+}
+.invest_content{
+    width:80%;
+    margin:0px auto;
+    text-align: center;
+
+}
+.invest_content h3{
+    font-size:50px;
+    font-weight: lighter;
+
+}
+.invest_content p{
+    font-size: 18px;
+    word-spacing: 5px;
+    
+}
+.invest_content a{
+    border:1px solid white;
+    padding:12px 35px;
+    background-color: rgb(27, 124, 221);
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: 500;
+    margin-top:5px;
+    font-size: 20px;
+}
+.invest_content a:hover{
+    background-color: rgb(68, 65, 65);
+}
+.stock{
+   
+    margin-top: 150px;
+    margin-left: 150px;
+    margin-right: 100px;
+  
+}
+.stock_img{
+    width:40%;
+    padding: 30px 0px;
+  
+
+}
+.stock_img img{
+    width:75%;
+    margin-left: 50px;
+   
+  
+}
+.stock_content{
+    width:40%;
+    margin-right: 50px;
+   
+    padding:5px 8px;
+
+}
+.stock_content .h{
+    font-size: 35px;
+    color: rgb(58, 56, 56);
+    margin-bottom:30px;
+   
+}
+.stock_content p{
+    font-size: 17px;
+    word-spacing: 5px;
+    margin-top: 15px;
+}
+.stock_content .content_1{
+font-size:17px ;
+word-break: 3px;
+width:40%;
+margin-top: 20px;
+}
+
+.product{
+    margin-top: 80px;
+
+}
+
+.product_content{
+    width:80%;
+    margin:0px auto;
+    text-align: center;
+
+}
+.product_content h3{
+    font-size:40px;
+    font-weight: lighter;
+
+}
+.product_content p{
+    font-size:20px;
+    
+    
+}.product_img{
+    width:100%;
+    margin:0px auto;
+
+}
+.product_img img{
+    width: 100%;
+
+}
+.product_img a{
+    color:dodgerblue;
+    font-size:18px;
+    text-decoration: none;
+}
+.product_img a:hover{
+    color: black;
+}
+
+
+
+.pricing{
+   width:65%;
+    margin-top: 100px;
+    margin-left: 150px;
+    margin-right: 50px;
+  
+    padding: 30px 60px;
+  
+}
+.pricing_1{
+    width:30%;
+    padding: 30px 0px;
+   
+  
+
+}
+.pricing_1 .z{
+    font-size: 35px;
+    margin-top: -12px;
+    color: rgb(83, 79, 79);
+}
+.pricing_1 p{
+    font-size: 18px ;
+    word-spacing: 5px;
+}
+.pricing_1 .xy{
+    text-decoration: none;
+    font-size: 18px;
+    color: rgb(61, 133, 204);
+
+}
+.pricing_1 .xy:hover{
+    color: black;
+}
+
+.fund{
+    width:35%;
+    margin-right: 50px;
+   margin-left: 60px;
+    padding:10px 15px;
+  
+
+}
+.fund .fund_1{
+    font-size: 35px;
+    color: rgb(58, 56, 56);
+  width:40%;
+ 
+   border:0.5px solid rgb(212, 201, 201);
+   padding:0px 20px;
+   
+}
+.fund_1 h4{
+    text-align: center;
+    color: rgb(90, 86, 86);
+}
+.fund_1 p{
+    font-size: 15px;
+    word-spacing: 5px;
+    margin-top: 15px;
+ 
+    text-align: center;
+}
+
+.market{
+    width:55%;
+    
+    margin-left: 150px;
+    margin-top: 50px;
+
+}
+.market .market_1{
+    width:40%;
+    
+    margin-right:40px;
+    padding:10px 0px;
+}
+.market_1 img{
+    width:75%;
+    padding:2px 10px;
+    margin-left: 40px;
+    margin-right: -20px;
+    
+  
+
+}
+.market_2{
+    
+    margin-right: 60px;
+    width:35%;
+    padding:30px 30px;
+}
+.market_2 h4{
+    font-size: 25px;
+    color: rgb(65, 62, 62);
+}
+.market_2 p{
+    font-size: 18px;
+    word-spacing: 5px;
+    
+}
+.market_2 a{
+    color: dodgerblue;
+    font-size: 18px;
+    text-decoration: none;
+}
+.market_2 a:hover{
+    color: black;
+}
+
+.account{
+    margin-top: 30px;
+    padding: 60px 0px;
+    margin-bottom: 100px;
+    border-bottom: 0.75px solid rgb(235, 219, 219);
+}
+
+.account_content{
+    width:90%;
+    margin:0px auto;
+    text-align: center;
+
+}
+.account_content h3{
+    font-size:40px;
+    font-weight: lighter;
+    word-spacing: 3px;
+
+}
+.account_content p{
+    font-size: 18px;
+    word-spacing: 5px;
+    
+}
+.account_content .ab{
+    border:1px solid white;
+    padding:12px 35px;
+    background-color: rgb(27, 124, 221);
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: 500;
+    margin-left: 300px;
+    margin-right: 300px;
+    font-size: 20px;
+    margin-top: 40px;
+}
+    
+.account_content .ab:hover{
+    background-color: rgb(68, 65, 65);
+}
+
+
+.footer{
+    padding-bottom:50px;
+    width:80%;
+    
+    margin-left:200px;
+    margin-right: 100px;
+    margin-top: -80px;
+    
+
+}
+.info{
+    width:15%;
+   
+    padding:0px 20px;
+}
+.info img{
+    width:70%;
+    margin-top: 40px;
+}
+.info_1{
+    width:90%;
+    
+    padding:10px 10px;
+    margin-left: 50px;
+}
+.info_1 .xyz{
+    padding-right:50px;
+   
+   width:50%;
+
+}
+.xyz a{
+    display: block;
+    text-decoration: none;
+    font-size: 18px;
+    color:black;
+    
+
+}
+.info_1 p{
+    font-size: 20px;
+}
+.xyz a:hover{
+ color: dodgerblue;   
+}
